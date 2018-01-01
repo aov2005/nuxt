@@ -1,2 +1,2 @@
 # standard
-Standard Template
+nuxt Template

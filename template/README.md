@@ -13,6 +13,18 @@ npm install
 npm start
 ```
 
+## Start nuxt dev
+
+```
+npm run nuxt-dev
+```
+
+## nuxt build
+
+```
+npm run nuxt-build
+```
+
 ## Deploy with pm2
 
 Use pm2 to deploy app on production enviroment.
