@@ -41,7 +41,9 @@ module.exports = {
       ["nuxt/static/README.md", "nuxt/static/README.md"],
       ["nuxt/store", "nuxt/store"],
       ["nuxt/store/README.md", "nuxt/store/README.md"],
-      
+      ["src/extend", "src/extend"],
+      ["src/extend/nuxt.js", "src/extend/nuxt.js"],
+
       ["src/bootstrap", "src/bootstrap"],
       ["src/config", "src/config"],
       ["src/controller/base.js", "src/controller/base.js"],
@@ -80,6 +82,8 @@ module.exports = {
       ["nuxt/static/README.md", "nuxt/static/README.md"],
       ["nuxt/store", "nuxt/store"],
       ["nuxt/store/README.md", "nuxt/store/README.md"],
+      ["src/extend", "src/extend"],
+      ["src/extend/nuxt.js", "src/extend/nuxt.js"],
 
       ["src/bootstrap", "src/common/bootstrap"],
       ["src/config", "src/common/config"],
