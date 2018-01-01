@@ -8,7 +8,7 @@ const nuxt = new Nuxt(config);
 module.exports = {
   controller: {
     get nuxt() {
-      return this.ctx.ssr;
+      return this.ctx.nuxt;
     }
   },
   context: {
