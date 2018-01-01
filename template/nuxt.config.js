@@ -18,7 +18,7 @@ module.exports = {
     ** Customize the progress bar color
     */
   loading: { color: '#3B8070' },
-  srcDir: path.join(__dirname, 'client/'),
+  srcDir: path.join(__dirname, 'nuxt/'),
   buildDir: './www/static/nuxt/',
 
   /*
