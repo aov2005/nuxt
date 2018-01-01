@@ -7,12 +7,12 @@ const nuxt = new Nuxt(config);
 
 module.exports = {
   controller: {
-    get ssr() {
+    get nuxt() {
       return this.ctx.ssr;
     }
   },
   context: {
-    async ssr() {
+    async nuxt() {
       const ctx = this.ctx;
       await nuxt.renderRoute(ctx.url)
         .then(({ html, error, redirected }) => {
