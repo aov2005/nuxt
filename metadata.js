@@ -51,6 +51,10 @@ module.exports = {
       ["src/logic", "src/logic"],
       ["src/model", "src/model"],
       ["test/index.js", "test/index.js"],
+      ["view/index_index.html", "view/index_index.html"],
+      ["www/static/css/.gitkeep", "www/static/css/.gitkeep"],
+      ["www/static/js/.gitkeep", "www/static/js/.gitkeep"],
+      ["www/static/image/.gitkeep", "www/static/image/.gitkeep"],
       ["development.js", "development.js"],
       ["eslintrc", ".eslintrc"],
       ["gitignore", ".gitignore"],
@@ -92,6 +96,11 @@ module.exports = {
       ["src/controller/index.js", "src/[moduleName]/controller/index.js"],
       ["src/logic", "src/[moduleName]/logic"],
       ["src/model", "src/[moduleName]/model"],
+      ["test/index.js", "test/index.js"],
+      ["view/index_index.html", "view/[moduleName]/index_index.html"],
+      ["www/static/css/.gitkeep", "www/static/css/.gitkeep"],
+      ["www/static/js/.gitkeep", "www/static/js/.gitkeep"],
+      ["www/static/image/.gitkeep", "www/static/image/.gitkeep"],
       ["development.js", "development.js"],
       ["eslintrc", ".eslintrc"],
       ["gitignore", ".gitignore"],
@@ -111,10 +120,6 @@ module.exports = {
       ["src/controller/rest.js", "src/[moduleName]/controller/rest.js"],
       ["src/controller/restIndex.js", "src/[moduleName]/controller/[action].js"],
       ["src/logic/index.js", "src/[moduleName]/logic/[action].js"]
-    ],
-    "ssr": [
-      ["src/controller/index.js", "src/[moduleName]/controller/[action].js"],
-      ["src/pages/template.vue", "src/[moduleName]/nuxt/pages/[action].js"]
     ]
   },
   "model": [
@@ -134,7 +139,8 @@ module.exports = {
     ["src/controller/base.js", "src/[moduleName]/controller/base.js"],
     ["src/controller/index.js", "src/[moduleName]/controller/index.js"],
     ["src/logic/index.js", "src/[moduleName]/logic/index.js"],
-    ["src/model/index.js", "src/[moduleName]/model/index.js"]
+    ["src/model/index.js", "src/[moduleName]/model/index.js"],
+    ["view/index_index.html", "view/[moduleName]/index_index.html"]
   ],
   "completeMessage": "To get started:\n\n<% if (!inPlace) { %># enter path\n$ cd <%= destDirName %>\n\n<% } %># install dependencies:\n$ npm install\n\n# run the app\n$ npm start"
 }
