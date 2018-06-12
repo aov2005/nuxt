@@ -8,6 +8,9 @@
             <h2 class="subtitle">
                 Nuxt.js and Thinkjs project
             </h2>
+            <div style="margin: 20px 0">
+                <nuxt-link to="/api" class="button--green">support thinkjs router</nuxt-link>
+            </div>
             <div class="links">
                 Thinkjs
                 <a href="https://thinkjs.org/" target="_blank" class="button--green">Documentation</a>

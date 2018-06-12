@@ -42,7 +42,8 @@ module.exports = {
       ["nuxt/store", "nuxt/store"],
       ["nuxt/store/README.md", "nuxt/store/README.md"],
       ["src/extend", "src/extend"],
-      ["src/extend/nuxt.js", "src/extend/nuxt.js"],
+      ["src/middleware", "src/middleware"],
+      ["src/middleware/nuxt.js", "src/middleware/nuxt.js"],
 
       ["src/bootstrap", "src/bootstrap"],
       ["src/config", "src/config"],

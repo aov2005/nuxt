@@ -32,6 +32,12 @@ module.exports = [
     }
   },
   {
+    handle: nuxt,
+    options: {
+      ignorePath: ['/api']
+    }
+  },
+  {
     handle: 'router',
     options: {}
   },

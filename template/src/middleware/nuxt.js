@@ -7,7 +7,7 @@ module.exports = (options, app) => {
     const builder = new Builder(app.nuxt);
     builder.build();
   }
-  const igorePathReg = options.ignorePath.map(el => new RegExp(`^${el}`));
+  const igorePathReg = Array.isArray(options.ignorePath) ? options.ignorePath.map(el => new RegExp(`^${el}`)) : [];
   return async(ctx, next) => {
     for (let i = 0, len = igorePathReg.length; i < len; i++) {
       const el = igorePathReg[i]
